@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 //
 import logo from "../../assets/images/logo.webp";
 // import Phone from "../../assets/images/Phone.jpg";
-import Phone2 from "../../assets/images/Phone2.webp";
+import Phone2 from "../../assets/images/Phone-two.webp";
 //
 import { Button } from "../shared";
 import {
