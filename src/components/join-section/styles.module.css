@@ -30,3 +30,37 @@
   font-size: 16px;
   font-weight: 600;
 }
+.sectionTwo {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  background-color: #ecfefe;
+  /* max-width: 911px; */
+  min-height: 394px;
+  border-radius: 50px;
+  overflow: hidden;
+  gap: 100px;
+  padding-left: 40px;
+  padding-right: 120px;
+}
+.content {
+  /* max-width: 464px; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.img {
+  margin-top: 50px;
+}
+.title{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--app-teal-color);
+}
+.title2{
+  font-size: 16px;
+  font-weight: 500;
+}
+.header{
+  font-size: 32px;
+}

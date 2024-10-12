@@ -2,7 +2,9 @@
 //
 import { Button, Header } from "../shared";
 import Community from "../../assets/images/community.webp";
+import Phone from "../../assets/images/phone.webp";
 import styles from "./styles.module.css";
+import { Stores } from "../hero-section";
 const a = "";
 export const Join = () => {
   return (
@@ -21,7 +23,17 @@ export const Join = () => {
           </div>
           <img alt="community-image" src={Community} width="600" />
         </div>
-        <div className={styles.sectionTwo}></div>
+        <div className={styles.sectionTwo}>
+          <div className={styles.content}>
+            <p className={styles.title}>Download The Rise App</p>
+            <Header className={styles.header}>
+              Join our 100,000 users investing <br/> and setting long term goals!
+            </Header>
+            <p className={styles.title2}>Dollar investments that help you grow.</p>
+            <Stores />
+          </div>
+          <img alt="phone-app" src={Phone} width="210" className={styles.img} />
+        </div>
       </div>
     </section>
   );

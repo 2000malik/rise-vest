@@ -29,6 +29,12 @@ function StoreButton({ logo, store = "" }) {
     </Button>
   );
 }
+export const Stores = ()=>{
+  return <div className={styles.storesContainer}>
+  <StoreButton logo={Apple} store="APP Store" />
+  <StoreButton logo={PlayStore} store="Google Play" />
+</div>
+}
 export const Hero = () => {
   return (
     <section id="hero" className={styles.hero}>
@@ -78,10 +84,7 @@ export const Hero = () => {
             We put your money in high quality assets that help <br /> you build
             wealth and achieve your financial goals.
           </p>
-          <div className={styles.storesContainer}>
-            <StoreButton logo={Apple} store="APP Store" />
-            <StoreButton logo={PlayStore} store="Google Play" />
-          </div>
+          <Stores/>
           <div className={styles.circle3}>
             <img alt="circle" src={Circle3} />
           </div>
