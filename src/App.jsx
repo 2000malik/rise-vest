@@ -5,7 +5,9 @@
 import {
   About,
   Assets,
+  Footer,
   Hero,
+  Join,
   Regulation,
   Save,
   Testimonials,
@@ -20,6 +22,8 @@ function App() {
       <Save />
       <Regulation />
       <Testimonials />
+      <Join />
+      <Footer />
     </>
   );
 }

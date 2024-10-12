@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.sectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 100px;
+  gap: 100px;
+}
+.sectionOneContent {
+  max-width: 578px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.para {
+  font-size: 16px;
+  font-weight: 400;
+}
+.button {
+  background-color: #a0dde2;
+  max-width: 218px;
+  max-height: 48px;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
