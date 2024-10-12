@@ -3,7 +3,7 @@
   width: 100%;
   background-color: #fff;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .nav {
   display: flex;
@@ -47,7 +47,7 @@ a {
   @media only screen and (max-width: 768px) {
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     margin-inline: 40px;
   }
 }
@@ -61,7 +61,8 @@ a {
     align-items: center;
   }
 }
-.content,div > h1 {
+.content,
+div > h1 {
   color: var(--app-teal-color);
   font-size: 56px;
   font-weight: 600;
@@ -76,11 +77,18 @@ a {
   font-weight: 500;
   line-height: 24px;
   margin-block: 30px;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 }
+
 .storesContainer {
   display: flex;
   /* justify-content: space-between; */
   gap: 25px;
+  @media only screen and (max-width: 768px) {
+    gap: 20px;
+  }
 }
 .storeContent {
   display: flex;
@@ -92,6 +100,7 @@ a {
   font-size: 12px;
   font-weight: 400;
   color: #fff;
+  text-wrap: nowrap;
 }
 .howToDown {
   text-align: left;
@@ -102,12 +111,12 @@ a {
 }
 .stores {
   background-color: var(--app-black-color);
-  height: 48px;
+  min-height: 48px;
+  max-width: 154px;
+  min-width: 140px;
   overflow: hidden;
   border-radius: 10px;
   padding: 5px 8px;
-  max-width: 154px;
-  min-width: 140px;
   cursor: pointer;
   color: #fff;
   font-size: 13px;
@@ -141,9 +150,41 @@ a {
   right: 150px;
   top: 800px;
 }
-.phone{
-    object-fit: contain;
-    object-position: center;
-    height: 900px;
-    width: 550px;
+.phone {
+  object-fit: contain;
+  object-position: center;
+  height: 900px;
+  width: 550px;
+
+  @media only screen and (max-width: 768px) {
+    display: none !important;
+  }
+}
+.smallDevice {
+  display: none;
+
+  @media only screen and (max-width: 768px) {
+    display: block !important;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+.phoneSmall{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .circle1,
+  .circle2,
+  .circle3,
+  .circle4,
+  .circle5 {
+    display: none !important;
+  }
+  .phoneSmall{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-block: 50px;
+  }
 }

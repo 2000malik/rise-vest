@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 //
 import logo from "../../assets/images/logo.webp";
 import PhoneTwo from "../../assets/images/phone-two.webp";
+import PhoneSmall from "../../assets/images/phone-small.webp";
 //
 import { Button } from "../shared";
 import {
@@ -29,12 +30,14 @@ function StoreButton({ logo, store = "" }) {
     </Button>
   );
 }
-export const Stores = ()=>{
-  return <div className={styles.storesContainer}>
-  <StoreButton logo={Apple} store="APP Store" />
-  <StoreButton logo={PlayStore} store="Google Play" />
-</div>
-}
+export const Stores = () => {
+  return (
+    <div className={styles.storesContainer}>
+      <StoreButton logo={Apple} store="APP Store" />
+      <StoreButton logo={PlayStore} store="Google Play" />
+    </div>
+  );
+};
 export const Hero = () => {
   return (
     <section id="hero" className={styles.hero}>
@@ -84,7 +87,10 @@ export const Hero = () => {
             We put your money in high quality assets that help <br /> you build
             wealth and achieve your financial goals.
           </p>
-          <Stores/>
+          <p className={styles.smallDevice}>
+            Your personal wealth manager. Get started with a minimum of $10 and
+          </p>
+          <Stores />
           <div className={styles.circle3}>
             <img alt="circle" src={Circle3} />
           </div>
@@ -94,6 +100,9 @@ export const Hero = () => {
           <div className={styles.circle4}>
             <img alt="circle" src={Circle4} />
           </div>
+        </div>
+        <div className={styles.phoneSmall}>
+          <img alt="phone" src={PhoneSmall} width="80%" />
         </div>
         <div className={styles.circle5}>
           <img alt="circle" src={Circle5} />
