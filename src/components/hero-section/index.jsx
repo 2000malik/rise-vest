@@ -2,8 +2,7 @@
 import styles from "./styles.module.css";
 //
 import logo from "../../assets/images/logo.webp";
-// import Phone from "../../assets/images/Phone.jpg";
-import PhoneTwo from "../../assets/images/Phone-two.webp";
+import PhoneTwo from "../../assets/images/phone-two.webp";
 //
 import { Button } from "../shared";
 import {
