@@ -13,7 +13,7 @@ export const Assets = () => {
       <div className={styles.assetsCard}>
         <div style={{ background: background }} className={styles.cardHeader}>
           <div className={styles.FixedIncome}>
-            <img src={img} width="80" />
+            <img alt={title} src={img} width="80" />
           </div>
         </div>
         <div className={styles.cardContent}>
