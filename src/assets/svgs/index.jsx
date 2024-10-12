@@ -7,6 +7,7 @@ import Circle3 from "./circle-3.svg";
 import Circle4 from "./circle-4.svg";
 import Circle5 from "./circle-5.svg";
 import ArrowRight from "./arrow-right.svg";
+import ArrowUp from "./arrow-up.svg";
 
 export {
   Bar,
@@ -18,4 +19,5 @@ export {
   Circle4,
   Circle5,
   ArrowRight,
+  ArrowUp
 };

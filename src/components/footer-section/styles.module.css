@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  gap: 290px;
+  flex-wrap: wrap;
+  height: 415px;
+  background-color: #fff;
+  margin-top: 100px;
+  padding-inline: 100px;
+}
+.footerHeader {
+  font-size: 16px;
+  font-weight: 600;
+}
+.footerLink {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--app-black-color) !important;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
