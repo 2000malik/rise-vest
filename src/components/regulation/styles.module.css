@@ -18,12 +18,8 @@
 .content {
   max-width: 504px;
 }
-.header {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
 .para {
+    margin-top: 15px;
   font-size: 16px;
   font-weight: 500;
 }

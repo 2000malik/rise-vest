@@ -1,4 +1,4 @@
-import { Button } from "../shared";
+import { Button, Header } from "../shared";
 //
 import styles from "./styles.module.css";
 //
@@ -14,9 +14,9 @@ export const Save = () => {
         </div>
         <div className={styles.content}>
           <p className={styles.title}>The Rise App</p>
-          <h2 className={styles.header}>
+          <Header>
             Save for your <span className={styles.future}>future</span>
-          </h2>
+          </Header>
           <p className={styles.writes}>
             With Rise, you achieve your financial goals faster. Save for school,
             your home, vacations, your children’s future and more.

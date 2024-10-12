@@ -1,10 +1,12 @@
 /* eslint-disable react/prop-types */
-// import React from 'react'
+
 import styles from "./styles.module.css";
 import FixedIncome from "../../assets/images/fixed-income.webp";
 import Stock from "../../assets/images/stock.webp";
 import Estate from "../../assets/images/real-estate.webp";
-import { Link } from "../shared";
+// 
+import { Header, Link } from "../shared";
+
 export const Assets = () => {
   const AssetsCard = ({ linkTag, background, img, title, content }) => {
     return (
@@ -60,7 +62,7 @@ export const Assets = () => {
   return (
     <section id="assets" className={styles.assets}>
       <div className={styles.header}>
-        <h2 className={styles.assets}>Asset Classes</h2>
+        <Header>Asset Classes</Header>
         <p>It’s your money, choose where you invest it</p>
       </div>
       <div className={styles.aboutContents}>

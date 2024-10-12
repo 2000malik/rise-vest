@@ -2,7 +2,14 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import { About, Assets, Hero, Regulation, Save } from "./components";
+import {
+  About,
+  Assets,
+  Hero,
+  Regulation,
+  Save,
+  Testimonials,
+} from "./components";
 
 function App() {
   return (
@@ -12,6 +19,7 @@ function App() {
       <Assets />
       <Save />
       <Regulation />
+      <Testimonials />
     </>
   );
 }

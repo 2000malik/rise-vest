@@ -5,10 +5,6 @@
   flex-direction: column;
   gap: 15px;
 }
-.header > h2 {
-  font-weight: 600;
-  font-size: 40px;
-}
 .header > p {
   font-weight: 400;
   font-size: 16px;
