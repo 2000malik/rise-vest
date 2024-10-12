@@ -2,15 +2,16 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import { About, Assets, Hero, Save } from "./components";
+import { About, Assets, Hero, Regulation, Save } from "./components";
 
 function App() {
   return (
     <>
       <Hero />
-      <About/>
-      <Assets/>
-      <Save/>
+      <About />
+      <Assets />
+      <Save />
+      <Regulation />
     </>
   );
 }

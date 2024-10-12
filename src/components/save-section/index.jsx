@@ -8,7 +8,6 @@ export const Save = () => {
     <section id="save">
       <div className={styles.section}>
         <div>
-         
           <div className={styles.phone}>
             <img alt="phone-app" src={Phone} width="500" />
           </div>

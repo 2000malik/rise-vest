@@ -31,6 +31,7 @@ h6 {
 p {
   margin: 0;
   color: var(--app-text-color);
+  line-height: 24px;
 }
 body {
   margin: 0;

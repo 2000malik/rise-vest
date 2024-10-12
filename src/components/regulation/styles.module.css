@@ -1,0 +1,29 @@
+.regulation {
+  background-color: #fff4f0;
+  /* background-image: linear-gradient(to right, #fff4f0, #ffffff,#ECFEFE); */
+  background-image: linear-gradient(
+    to right bottom,
+    #fff4f0,
+    #ffffff,
+    #f6f2ff,
+    #ecfefe
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 371px;
+  width: 100%;
+  text-align: center;
+}
+.content {
+  max-width: 504px;
+}
+.header {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.para {
+  font-size: 16px;
+  font-weight: 500;
+}
