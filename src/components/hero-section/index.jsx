@@ -37,8 +37,8 @@ export const Hero = () => {
           <a href="/">
             <img src={logo} alt="logo" width="80" height="25" />
           </a>
-          <button className={styles.menuBar}>
-            <img src={Bar} width="80" height="25" />
+          <button className={styles.menuBar} aria-label="bar">
+            <img alt="bar" src={Bar} width="80" height="25" />
           </button>
           <ul className={styles.navList}>
             <li className={styles.menu}>

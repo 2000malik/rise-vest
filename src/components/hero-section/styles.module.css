@@ -61,7 +61,7 @@ a {
     align-items: center;
   }
 }
-.content > h1 {
+.content,div > h1 {
   color: var(--app-teal-color);
   font-size: 56px;
   font-weight: 600;
