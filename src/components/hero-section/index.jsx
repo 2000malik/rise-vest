@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 //
 import logo from "../../assets/images/logo.webp";
 // import Phone from "../../assets/images/Phone.jpg";
-import Phone2 from "../../assets/images/Phone-two.webp";
+import PhoneTwo from "../../assets/images/Phone-two.webp";
 //
 import { Button } from "../shared";
 import {
@@ -88,7 +88,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className={styles.contentImg}>
-          <img alt="phone" src={Phone2} className={styles.phone} />
+          <img alt="phone" src={PhoneTwo} className={styles.phone} />
           <div className={styles.circle4}>
             <img alt="circle" src={Circle4} />
           </div>
