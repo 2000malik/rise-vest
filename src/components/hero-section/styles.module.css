@@ -1,0 +1,149 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-block: 20px; */
+  margin-inline: 200px;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    margin-inline: 20px;
+  }
+}
+.menuBar {
+  background-color: transparent;
+  border: 0;
+  display: none;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    display: inline-block;
+  }
+}
+.navList {
+  display: flex;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.menu,
+a {
+  margin-right: 20px;
+  color: var(--app-teal-color) !important;
+  font-size: 16px;
+}
+.heroContent {
+  display: flex;
+  margin-inline: 100px;
+  margin-block: 50px;
+  justify-content: space-between;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-inline: 40px;
+  }
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+  }
+}
+.content > h1 {
+  color: var(--app-teal-color);
+  font-size: 56px;
+  font-weight: 600;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+.content > p {
+  color: var(--app-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-block: 30px;
+}
+.storesContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.storeContent {
+  display: flex;
+  gap: 10px;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.download {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+}
+.howToDown {
+  text-align: left;
+}
+.downloadFrom {
+  font-size: 15px;
+  font-weight: 400;
+}
+.stores {
+  background-color: var(--app-black-color);
+  height: 48px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 5px 8px;
+  max-width: 154px;
+  min-width: 140px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+/* .contentImg {
+  margin-right: 150px !important;
+} */
+.circle1 {
+  position: absolute;
+  left: 140px;
+  top: 240px;
+}
+.circle2 {
+  position: absolute;
+  left: 800px;
+  top: 120px;
+}
+.circle3 {
+  position: absolute;
+  left: 250px;
+  top: 800px;
+}
+.circle4 {
+  position: absolute;
+  right: 550px;
+  top: 800px;
+}
+.circle5 {
+  position: absolute;
+  right: 150px;
+  top: 800px;
+}
+.phone{
+    object-fit: contain;
+    object-position: center;
+    height: 900px;
+    width: 550px;
+}

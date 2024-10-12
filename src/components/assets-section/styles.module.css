@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.header > h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+.header > p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.aboutContents {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.assetsCard {
+  min-height: 515px;
+  overflow: hidden;
+  border: 1px solid #919fb533;
+  border-radius: 5px;
+  max-width: 300px;
+}
+.cardHeader {
+  min-height: 113px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FixedIncome {
+  position: absolute;
+  top: 70px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 10px;
+  text-align: center;
+  height: 280px;
+}
+.cardContent > h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.cardContent > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.cardTag {
+  color: #a3afc2 !important;
+}
+.cardLink {
+  /* display: flex;
+    align-items: flex-end; */
+  margin-top: auto;
+  text-align: center;
+}
